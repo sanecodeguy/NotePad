@@ -5,19 +5,20 @@
 <p align="center">
   <img src="https://img.shields.io/badge/C++-17-blue?style=for-the-badge&logo=c%2B%2B">
   <img src="https://img.shields.io/badge/terminal-based-lightgrey?style=for-the-badge&logo=gnubash">
-  <img src="https://img.shields.io/github/license/sanecodeguy/Terminal-Notepad?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/sanecodeguy/Notepad?style=for-the-badge">
 </p>
 
 <p align="center">
-  🚀 A slick terminal-based notepad written in C++ using raw pointers and custom doubly linked lists.<br>
-  No dependencies. No ncurses. Just pure terminal magic.
+  🚀 A Simple terminal-based notepad written in C++ using raw pointers and custom doubly linked lists.<br>
+  No dependencies. 
 </p>
 
 ---
 
 ## 🖥️ Preview
 
-https://user-images.githubusercontent.com/00000000/your-demo-gif.gif  
+ ![2025-05-1523-10-40-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7ba8de3d-425a-4d4c-8e10-8df016704aaf)
+
 
 ---
 
@@ -40,10 +41,6 @@ H <-> e <-> l <-> l <-> o
           ↓
           w <-> o <-> r <-> l <-> d
 ```
-Node* next;  // Right
-Node* prev;  // Left
-Node* up;    // Above
-Node* down;  // Below
 
 ### 🚦 Controls
 
@@ -65,11 +62,11 @@ g++ main.cpp -o notepad
 ```
 ### Requirements
 
-    Linux / macOS terminal
+  Linux / macOS terminal
 
-    g++ (C++17 or higher)
+  g++ (C++17 or higher)
 
-    No libraries required
+  No libraries required
 
 📜 License
 
